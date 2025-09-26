@@ -1,0 +1,1 @@
+# Output movido para main.tf para evitar duplicação
