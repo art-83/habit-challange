@@ -8,7 +8,7 @@ export const pgDataSource = new DataSource({
     type: 'postgres',
     host: process.env.PG_HOST,
     username: process.env.PG_USERNAME,
-    password: process.env.DB_PASSWORD,
+    password: process.env.PG_PASSWORD,
     database: process.env.PG_DATASOURCE,
     entities: [User],
     synchronize: true,
